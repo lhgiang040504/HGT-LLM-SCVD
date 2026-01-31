@@ -1,7 +1,7 @@
-# SMART-VISION-FUSION: Multimodal Vulnerability Detection for Smart Contracts
+# Leveraging Large Language Model and Graph Structure Analysis to Enhance Smart Contract Vulnerability Detection
 
 ## Overview  
-This repository contains the official implementation of **SMART-VISION-FUSION**, a novel dual-branch multimodal framework for detecting vulnerabilities in smart contracts. The method integrates deep semantic representations from large language models (CodeQwen-1.5-7B) with structural dependencies captured via a Heterogeneous Graph Transformer (HGT). A cross-attention fusion mechanism enables fine-grained interaction between the two modalities, significantly improving detection accuracy, generalization, and adversarial robustness compared to existing approaches.
+This repository contains the official implementation of **HGT-LLM-SCVD**, a novel dual-branch multimodal framework for detecting vulnerabilities in smart contracts. The method integrates deep semantic representations from large language models (CodeQwen-1.5-7B) with structural dependencies captured via a Heterogeneous Graph Transformer (HGT). A cross-attention fusion mechanism enables fine-grained interaction between the two modalities, significantly improving detection accuracy, generalization, and adversarial robustness compared to existing approaches.
 
 ## Key Features  
 - **Dual-Branch Architecture**: Processes both semantic (LLM-based) and structural (graph-based) representations in parallel.
@@ -49,10 +49,10 @@ If you use this code or findings in your research, please cite the original pape
 
 ```bibtex
 @article{giang2025smartvisionfusion,
-  title={Multimodal Smart Contract Vulnerability Detection via Semantic-Structural Cross-Attention},
+  title={Leveraging Large Language Model and Graph Structure Analysis to Enhance Smart Contract Vulnerability Detection
   author={Le Huynh Giang and Chu Nguyen Hoang Phuong and Triet Huynh Minh Le and M. Ali Babar and Van-Hau Pham and Phan The Duy},
-  journal={Journal of Smart Contract Vulnerability Detection},
-  year={2025}
+  journal={Research Software Engineering – Software-Enabled Discovery and Beyond},
+  year={2026}
 }
 ```
 ## License  
